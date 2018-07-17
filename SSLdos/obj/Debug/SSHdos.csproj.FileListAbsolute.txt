@@ -1,0 +1,17 @@
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\SSLdos.exe.config
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\SSLdos.exe.manifest
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\SSLdos.application
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\SSLdos.exe
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\SSLdos.pdb
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\Renci.SshNet.dll
+C:\Users\brend\source\repos\SSLdos\SSLdos\bin\Debug\Renci.SshNet.xml
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSHdos.csprojResolveAssemblyReference.cache
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.Form1.resources
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.Properties.Resources.resources
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSHdos.csproj.GenerateResource.cache
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSHdos.csproj.CoreCompileInputs.cache
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.exe.manifest
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.application
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSHdos.csproj.CopyComplete
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.exe
+C:\Users\brend\source\repos\SSLdos\SSLdos\obj\Debug\SSLdos.pdb
