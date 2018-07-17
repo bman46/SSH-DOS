@@ -20,3 +20,6 @@ Download most recent release and then fill in the input fields.
 `No Disconnect` means that it wont send a dissconnect and then try to recconect again.
 
 `Use Screen` means that it will issue the command `Screen` before sending commands (Note: This command will be in the Loop and repeatedly issued)
+
+![alt text](https://github.com/bman46/SSH-DOS/blob/master/SSH-DOS.PNG "Screen Shot of SSH-DOS")
+###### Note: Some file names may say SSL but it was a mistake when i created the application and SSL has nothing to do with this repository/program.
