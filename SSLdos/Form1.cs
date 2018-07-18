@@ -123,43 +123,28 @@ namespace SSLdos
         {
 
         }
-        public void Attack()
-        {
-
-
-            //do work
-            using (SshClient client = new SshClient(textBox1.Text, textBox2.Text, textBox3.Text))
-            {
-                while (true)
-                {
-                    try
-                    {
-                        client.Connect();
-                        if (Screen.Checked)
-                        {
-                            client.RunCommand("screen");
-                        }
-                        client.RunCommand(textBox4.Text);
-                        if (!Disconnect.Checked)
-                        {
-                            client.Disconnect();
-                        }
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Error Connecting SSH", "SSH Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        break;
-                    }
-                }
-            }
-
-        }
+        
 
         private void stopButton_Click(object sender, EventArgs e)
         {
             stopButton.Enabled = false;
             goButton.Enabled = true;
             _worker.CancelAsync();
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

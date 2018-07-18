@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SSLdos.exe" size="12768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SSLdos.exe" size="13280">
       <assemblyIdentity name="SSLdos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CBXByyGWtD11y/1RpW2qTrO27v3zeCvLo7119NKoRKY=</dsig:DigestValue>
+        <dsig:DigestValue>mnpIVKftuF95BYOiOo5ZLyyuazeQdv3WLnOIW9GodOE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

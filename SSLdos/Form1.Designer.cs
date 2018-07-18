@@ -40,6 +40,8 @@
             this.Screen = new System.Windows.Forms.CheckBox();
             this.Disconnect = new System.Windows.Forms.CheckBox();
             this.stopButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Counter = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -158,11 +160,33 @@
             this.stopButton.UseVisualStyleBackColor = true;
             this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(3, 379);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Requests Sent:";
+            this.label5.Click += new System.EventHandler(this.label5_Click_1);
+            // 
+            // Counter
+            // 
+            this.Counter.Location = new System.Drawing.Point(81, 371);
+            this.Counter.Multiline = true;
+            this.Counter.Name = "Counter";
+            this.Counter.ReadOnly = true;
+            this.Counter.Size = new System.Drawing.Size(100, 30);
+            this.Counter.TabIndex = 14;
+            this.Counter.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(190, 376);
+            this.ClientSize = new System.Drawing.Size(190, 413);
+            this.Controls.Add(this.Counter);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.stopButton);
             this.Controls.Add(this.Disconnect);
             this.Controls.Add(this.Screen);
@@ -198,6 +222,8 @@
         private System.Windows.Forms.CheckBox Screen;
         private System.Windows.Forms.CheckBox Disconnect;
         private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox Counter;
     }
 }
 
