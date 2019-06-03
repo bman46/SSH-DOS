@@ -1,5 +1,5 @@
 # SSH-DOS
-For stress testing of SSH by repeatedly connecting and issuing commands.
+For stress testing SSH by repeatedly connecting and issuing commands.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/wwbnlje4gl61en7i?svg=true)](https://ci.appveyor.com/project/bman46/ssh-dos)
 
