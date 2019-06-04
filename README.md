@@ -51,7 +51,20 @@ For stress testing SSH by repeatedly connecting and issuing commands.
                 } while (true);
             });
 uses a do while statement that repeatedly connects and issues commands to the target. This loop is killed by the stop button which then kills the worker; therefore, stopping the loop.
+- The Abstraction:
 
+        private void SwapButtons()
+        {
+            if(goButton.Enabled==false)
+            {
+                goButton.Enabled = true;
+                stopButton.Enabled = false;
+            } else {
+                goButton.Enabled = false;
+                stopButton.Enabled = true;
+            }
+        }
+is used to swap the go and stop button depending if the program is running or not, it is an abstraction because it hides the code that switches the buttons.
 ## Usage:
 
 Download most recent release and then fill in the input fields.
