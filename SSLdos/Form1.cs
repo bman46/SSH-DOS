@@ -115,20 +115,28 @@ namespace SSLdos
             });
 
             _worker.RunWorkerAsync();
-            goButton.Enabled = false;
-            stopButton.Enabled = true;
+            SwapButtons();
         }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
-        
+        private void SwapButtons()
+        {
+            if(goButton.Enabled==false)
+            {
+                goButton.Enabled = true;
+                stopButton.Enabled = false;
+            } else {
+                goButton.Enabled = false;
+                stopButton.Enabled = true;
+            }
+        }
+
 
         private void stopButton_Click(object sender, EventArgs e)
         {
-            stopButton.Enabled = false;
-            goButton.Enabled = true;
+            SwapButtons();
             _worker.CancelAsync();
         }
 
