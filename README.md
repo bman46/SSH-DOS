@@ -7,10 +7,12 @@ For stress testing SSH by repeatedly connecting and issuing commands.
 
 - This program is written in C# and is meant to perform a Denial of Service attack on a SSH connection. 
 - The conditional structure found in `Form1.cs`:
-`if (_worker.CancellationPending)
- {
-   break;
- }`
+`
+if (_worker.CancellationPending)
+{
+    break;
+}
+`
  is meant to kill the background worker loop when the user clicks on the stop button.
  - The looping structure: 
 
