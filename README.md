@@ -52,16 +52,6 @@ For stress testing SSH by repeatedly connecting and issuing commands.
             });
 uses a do while statement that repeatedly connects and issues commands to the target. This loop is killed by the stop button which then kills the worker; therefore, stopping the loop.
 
-## Disclaimer:
-
-This tool is released for educational purposes only.
-
-Software is AS IS and i cannnot guarentee correct functionality.
-
-You may not use this software for any illegal or unethical purpose; including activities which would give rise to criminal or civil liability.
-
-Under no event shall the Licensor be responsible for the activities, or any misdeeds, conducted by the Licensee.
-
 ## Usage:
 
 Download most recent release and then fill in the input fields.
