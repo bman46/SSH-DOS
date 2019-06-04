@@ -3,7 +3,7 @@ For stress testing SSH by repeatedly connecting and issuing commands.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/wwbnlje4gl61en7i?svg=true)](https://ci.appveyor.com/project/bman46/ssh-dos)
 
-## Core Related Responces:
+## Core Responses:
 
 - This program is written in C# and is meant to perform a Denial of Service attack on a SSH connection. 
 - The conditional structure found in `Form1.cs`:
