@@ -3,7 +3,7 @@ For stress testing SSH by repeatedly connecting and issuing commands.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/wwbnlje4gl61en7i?svg=true)](https://ci.appveyor.com/project/bman46/ssh-dos)
 
-## Core Related Responces:
+## Core Responses:
 
 - This program is written in C# and is meant to perform a Denial of Service attack on a SSH connection. 
 - The conditional structure found in `Form1.cs`:
@@ -60,5 +60,5 @@ Download most recent release and then fill in the input fields.
 
 `Use Screen` means that it will issue the command `Screen` before sending commands (Note: This command will be in the Loop and repeatedly issued)
 
-![alt text](https://github.com/bman46/SSH-DOS/blob/master/SSH-DOS.PNG "Screen Shot of SSH-DOS")
+![alt text](https://github.com/bman46/SSH-DOS/blob/master/SSH-DOS.png?raw=true "Screen Shot of SSH-DOS")
 ###### Note: Some file names may say SSL but it was a mistake when i created the application and SSL has nothing to do with this repository/program.
