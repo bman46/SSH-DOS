@@ -132,8 +132,6 @@ namespace SSLdos
                 stopButton.Enabled = true;
             }
         }
-
-
         private void stopButton_Click(object sender, EventArgs e)
         {
             SwapButtons();
